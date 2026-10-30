@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>离线 · 语言学研习台</title>
+  <style>
+    :root { color-scheme: dark; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: grid; place-items: center; background: #0f1318; color: #dde3e8;
+      font-family: "Noto Serif SC", "Songti SC", "SimSun", serif;
+    }
+    .box { max-width: 380px; padding: 32px; text-align: center; }
+    .seal {
+      width: 52px; height: 52px; margin: 0 auto 20px; border-radius: 10px;
+      border: 1px solid rgba(208,120,90,.5); color: #d0785a; font-size: 24px;
+      display: grid; place-items: center;
+    }
+    h1 { font-size: 19px; font-weight: 500; letter-spacing: .04em; margin: 0 0 10px; }
+    p { font-size: 12.5px; line-height: 1.9; color: #93a0ac; margin: 0; font-family: ui-sans-serif, system-ui, sans-serif; }
+    button {
+      margin-top: 22px; padding: 8px 18px; border-radius: 6px; cursor: pointer;
+      background: transparent; border: 1px solid #d0785a; color: #d0785a;
+      font-size: 12px; letter-spacing: .05em;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="seal">言</div>
+    <h1>当前处于离线状态</h1>
+    <p>已缓存的笔记与卡片仍可翻阅。新增、编辑、复习评分需要连接到本机的语言学服务（默认为 http://127.0.0.1:8787）。</p>
+    <button onclick="location.reload()">重新连接</button>
+  </div>
+</body>
+</html>

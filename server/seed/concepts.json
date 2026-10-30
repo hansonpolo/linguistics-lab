@@ -1,0 +1,497 @@
+{
+  "concepts": [
+    {
+      "id": "k01",
+      "name": "语言",
+      "chapter": "c01",
+      "definition": "人类用于交际和思维的音义结合的符号系统，由社会约定俗成，具有社会性、系统性和生成性，是语言学研究的核心对象。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k02", "type": "opposes" },
+        { "to": "k03", "type": "contains" },
+        { "to": "k30", "type": "contains" }
+      ]
+    },
+    {
+      "id": "k02",
+      "name": "言语",
+      "chapter": "c01",
+      "definition": "人们对语言的具体运用及其产物，包括说话的行为和说出的话，具有个人性、具体性和情境性，与作为社会共有符号系统的语言相对。",
+      "school": "结构主义",
+      "era": "1916",
+      "aliases": ["言语活动"],
+      "relations": []
+    },
+    {
+      "id": "k03",
+      "name": "符号",
+      "chapter": "c08",
+      "definition": "用一定的物质形式（能指）代表另一事物或意义（所指）的标记，二者结合构成符号；语言是最重要的符号系统，文字是记录语言的书写符号系统。",
+      "school": "结构主义",
+      "era": "1916",
+      "aliases": [],
+      "relations": [
+        { "to": "k04", "type": "contains" },
+        { "to": "k05", "type": "contains" }
+      ]
+    },
+    {
+      "id": "k04",
+      "name": "语言符号的任意性",
+      "chapter": "c03",
+      "definition": "语言符号的能指（语音形式）与所指（意义）之间没有必然的、可论证的联系，二者的结合由社会约定俗成，是语言符号最根本的性质。",
+      "school": "结构主义",
+      "era": "1916",
+      "aliases": ["任意性"],
+      "relations": [
+        { "to": "k05", "type": "related" }
+      ]
+    },
+    {
+      "id": "k05",
+      "name": "线条性",
+      "chapter": "c03",
+      "definition": "语言符号只能一个接一个地在时间中依次展开，不能在空间上同时呈现，这一性质使语言呈现为线性序列，是组合关系得以形成的基础。",
+      "school": "结构主义",
+      "era": "1916",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k06",
+      "name": "组合关系",
+      "chapter": "c03",
+      "definition": "符号与符号在语流中按线性顺序连接而成的横向关系，如主谓结构、动宾结构，体现语言单位之间的搭配可能，又称句段关系。",
+      "school": "结构主义",
+      "era": "1916",
+      "aliases": ["句段关系"],
+      "relations": [
+        { "to": "k07", "type": "opposes" }
+      ]
+    },
+    {
+      "id": "k07",
+      "name": "聚合关系",
+      "chapter": "c03",
+      "definition": "在语言系统的同一位置上可以互相替换、具有共同功能的符号之间的纵向关系，如名词位置上名词之间的替换，又称联想关系。",
+      "school": "结构主义",
+      "era": "1916",
+      "aliases": ["联想关系"],
+      "relations": []
+    },
+    {
+      "id": "k08",
+      "name": "音素",
+      "chapter": "c04",
+      "definition": "从音质角度划分出来的最小语音单位，按发音动作和声学特征切分，如汉语音节 bā 中的 [p] 和 [a]，本身不具有区别意义的功能。",
+      "school": "普通语言学",
+      "era": "19世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k09", "type": "opposes" }
+      ]
+    },
+    {
+      "id": "k09",
+      "name": "音位",
+      "chapter": "c04",
+      "definition": "一种语言或方言中能够区别意义的最小语音单位，是从社会功能角度归纳出来的语音类别，如普通话的 /p/ 与 /pʰ/ 分属不同音位。",
+      "school": "结构主义",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k10", "type": "contains" },
+        { "to": "k11", "type": "contains" }
+      ]
+    },
+    {
+      "id": "k10",
+      "name": "音位变体",
+      "chapter": "c04",
+      "definition": "同一个音位在不同语音环境中的具体实现形式，包括条件变体和自由变体，彼此不对立、不能区别意义，如普通话 /a/ 的 [a]、[ɑ]、[ɛ]。",
+      "school": "结构主义",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k13", "type": "related" }
+      ]
+    },
+    {
+      "id": "k11",
+      "name": "区别特征",
+      "chapter": "c04",
+      "definition": "能够区分音位的语音特征，如送气与否、清浊、鼻音性等，一个音位可分析为一组区别特征的组合，是音系分析的基本单位。",
+      "school": "结构主义",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k12",
+      "name": "音节",
+      "chapter": "c04",
+      "definition": "听觉上最容易分辨出来的最小语音片段，由音素按一定的响度序列组合而成，汉语音节通常包括声母、韵母和声调三个部分。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k08", "type": "contains" },
+        { "to": "k13", "type": "related" }
+      ]
+    },
+    {
+      "id": "k13",
+      "name": "语流音变",
+      "chapter": "c04",
+      "definition": "在连续发音中，音位受相邻语音或说话速度、语气等因素影响而发生的临时性变化，常见类型有同化、异化、弱化、脱落和增音。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k14",
+      "name": "语素",
+      "chapter": "c05",
+      "definition": "语言中最小的音义结合体，不能再切分为更小的音义结合单位，如“人”“民”“葡”等，是构词和语法分析的基本单位。",
+      "school": "结构主义",
+      "era": "20世纪",
+      "aliases": ["词素"],
+      "relations": []
+    },
+    {
+      "id": "k15",
+      "name": "词",
+      "chapter": "c07",
+      "definition": "由语素构成、能够独立运用的最小造句单位，具有固定的语音形式和相对完整的意义，是词汇的基本单位。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k14", "type": "contains" },
+        { "to": "k22", "type": "related" }
+      ]
+    },
+    {
+      "id": "k16",
+      "name": "语法范畴",
+      "chapter": "c05",
+      "definition": "对同一类语法意义所作的概括，如性、数、格、时、体、态、人称等，通过一定的语法形式表现出来，具有鲜明的民族性。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k18", "type": "contains" },
+        { "to": "k17", "type": "related" },
+        { "to": "k21", "type": "related" }
+      ]
+    },
+    {
+      "id": "k17",
+      "name": "语法形式",
+      "chapter": "c05",
+      "definition": "表达语法意义的外部手段和物质标志，如词形变化、词序、虚词、重叠、语调等，与语法意义构成对立统一的两个方面。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k18", "type": "opposes" }
+      ]
+    },
+    {
+      "id": "k18",
+      "name": "语法意义",
+      "chapter": "c05",
+      "definition": "由语法形式所表达的、概括的、抽象的关系意义或类别意义，如单复数、主谓关系等，区别于具体的词汇意义。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k19",
+      "name": "孤立语",
+      "chapter": "c05",
+      "definition": "缺少形态变化、主要依靠词序和虚词表达语法意义的语言类型，汉语、越南语等属于此类，又称分析语。",
+      "school": "普通语言学",
+      "era": "19世纪",
+      "aliases": ["分析语"],
+      "relations": [
+        { "to": "k21", "type": "opposes" },
+        { "to": "k20", "type": "related" }
+      ]
+    },
+    {
+      "id": "k20",
+      "name": "黏着语",
+      "chapter": "c05",
+      "definition": "通过附加成分与词根的结合表达语法意义、且每个附加成分只表示一种语法意义的语言类型，如日语、土耳其语。",
+      "school": "普通语言学",
+      "era": "19世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k21", "type": "opposes" }
+      ]
+    },
+    {
+      "id": "k21",
+      "name": "屈折语",
+      "chapter": "c05",
+      "definition": "以词形变化表达语法意义、一个词缀往往兼表多种语法意义的语言类型，如俄语、拉丁语，词根与词缀结合紧密。",
+      "school": "普通语言学",
+      "era": "19世纪",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k22",
+      "name": "词义",
+      "chapter": "c06",
+      "definition": "词所表示的意义，是人们对词所指称的客观事物或现象的概括反映，包括理性意义和色彩意义等，具有概括性和模糊性。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k23", "type": "contains" }
+      ]
+    },
+    {
+      "id": "k23",
+      "name": "义素",
+      "chapter": "c06",
+      "definition": "对词的理性意义进行分解后得到的语义特征，是词义的最小构成成分，如“男人”可分析为[+人][+男性][+成年]。",
+      "school": "结构主义",
+      "era": "20世纪",
+      "aliases": ["语义特征"],
+      "relations": [
+        { "to": "k24", "type": "related" }
+      ]
+    },
+    {
+      "id": "k24",
+      "name": "语义场",
+      "chapter": "c06",
+      "definition": "若干在意义上相互联系、相互制约的词构成的聚合体，如颜色场、亲属场，场内的词由共同的义素和区别性义素相互关联。",
+      "school": "结构主义",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k25", "type": "contains" },
+        { "to": "k26", "type": "contains" }
+      ]
+    },
+    {
+      "id": "k25",
+      "name": "同义词",
+      "chapter": "c06",
+      "definition": "意义相同或相近的一组词，可分为等义词和近义词，彼此在理性意义、感情色彩或语体风格上可能存在细微差别。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k26", "type": "opposes" }
+      ]
+    },
+    {
+      "id": "k26",
+      "name": "反义词",
+      "chapter": "c06",
+      "definition": "意义相反或相对的一组词，可分为绝对反义词（如生与死）和相对反义词（如大与小），须在同一意义范畴内构成对立。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k27",
+      "name": "语境",
+      "chapter": "c06",
+      "definition": "语言使用的环境，包括上下文语境和情景语境（交际场合、对象、背景等），对词语和句子的意义具有确定和制约作用。",
+      "school": "功能主义",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k28", "type": "related" },
+        { "to": "k29", "type": "related" }
+      ]
+    },
+    {
+      "id": "k28",
+      "name": "言语行为",
+      "chapter": "c02",
+      "definition": "人们借助语言实际做出的行为，通常分为言内行为、言外行为和言后行为，其理论强调说话就是在做事。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k29", "type": "influences" }
+      ]
+    },
+    {
+      "id": "k29",
+      "name": "合作原则",
+      "chapter": "c02",
+      "definition": "会话双方为保证交际顺利进行而共同遵守的准则，包括量、质、关系、方式四条准则，有意违反时可产生会话含义。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": ["会话合作原则"],
+      "relations": []
+    },
+    {
+      "id": "k30",
+      "name": "方言",
+      "chapter": "c09",
+      "definition": "语言的地方变体，是同一语言在不同地域形成的分支，在语音、词汇、语法上具有自身特点，可分为地域方言和社会方言。",
+      "school": "社会语言学",
+      "era": "20世纪",
+      "aliases": ["地域方言"],
+      "relations": [
+        { "to": "k31", "type": "opposes" }
+      ]
+    },
+    {
+      "id": "k31",
+      "name": "共同语",
+      "chapter": "c09",
+      "definition": "一个社会全体成员共同使用的语言，通常以某一方言为基础形成，如汉语普通话以北京语音为标准音、北方话为基础方言。",
+      "school": "社会语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k32",
+      "name": "借词",
+      "chapter": "c10",
+      "definition": "从其他语言中连音带义借用过来的词，如汉语的“沙发”“咖啡”“坦克”，是语言接触在词汇层面的重要表现，也是丰富本族语词汇的常见途径。",
+      "school": "社会语言学",
+      "era": "20世纪",
+      "aliases": ["外来词"],
+      "relations": [
+        { "to": "k35", "type": "related" }
+      ]
+    },
+    {
+      "id": "k33",
+      "name": "语言联盟",
+      "chapter": "c10",
+      "definition": "若干没有共同来源的语言长期密切接触，在语音、词汇和语法上相互影响而趋于相似的现象，如巴尔干语言联盟，又称语言联合体。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": ["语言联合体"],
+      "relations": [
+        { "to": "k34", "type": "opposes" },
+        { "to": "k35", "type": "related" }
+      ]
+    },
+    {
+      "id": "k34",
+      "name": "语言替换",
+      "chapter": "c10",
+      "definition": "一种语言逐渐取代另一种语言、被取代的语言最终退出交际的现象，通常伴随语言转用和语言消亡，是社会历史条件作用的结果。",
+      "school": "社会语言学",
+      "era": "20世纪",
+      "aliases": ["语言转用"],
+      "relations": []
+    },
+    {
+      "id": "k35",
+      "name": "混合语",
+      "chapter": "c10",
+      "definition": "在语言接触中由两种或多种语言混合而成的交际工具，如洋泾浜语；当洋泾浜语被新一代作为母语习得时，便发展为克里奥尔语。",
+      "school": "社会语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k36",
+      "name": "语言演变",
+      "chapter": "c11",
+      "definition": "语言在时间过程中发生的系统性变化，涉及语音、词汇、语法各个层面，具有渐变性、不平衡性和规律性，是社会发展的反映。",
+      "school": "历史比较语言学",
+      "era": "19世纪",
+      "aliases": ["语言发展"],
+      "relations": [
+        { "to": "k37", "type": "contains" },
+        { "to": "k38", "type": "contains" }
+      ]
+    },
+    {
+      "id": "k37",
+      "name": "类推",
+      "chapter": "c11",
+      "definition": "语言演变中依据已有模式对不规则形式加以改造、使之趋于整齐的机制，如英语不规则动词按规则动词的形式变化。",
+      "school": "历史比较语言学",
+      "era": "19世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k38", "type": "related" }
+      ]
+    },
+    {
+      "id": "k38",
+      "name": "语法化",
+      "chapter": "c11",
+      "definition": "实词或结构式逐渐失去实义、获得语法功能的过程，如汉语“把”“了”由实词演变为语法标记，是语言演变的重要机制。",
+      "school": "普通语言学",
+      "era": "20世纪",
+      "aliases": [],
+      "relations": []
+    },
+    {
+      "id": "k39",
+      "name": "历史比较语言学",
+      "chapter": "c12",
+      "definition": "运用比较方法研究有共同来源的语言之间的对应关系、构拟原始共同语并建立语言谱系的学科，形成于19世纪。",
+      "school": "历史比较语言学",
+      "era": "19世纪",
+      "aliases": [],
+      "relations": [
+        { "to": "k40", "type": "influences" },
+        { "to": "k36", "type": "influences" }
+      ]
+    },
+    {
+      "id": "k40",
+      "name": "结构主义",
+      "chapter": "c12",
+      "definition": "以语言系统为研究对象、强调语言符号系统性和共时描写的语言学流派，由索绪尔的理论奠定基础，包括布拉格、哥本哈根和美国描写等分支。",
+      "school": "结构主义",
+      "era": "20世纪",
+      "aliases": ["结构主义语言学"],
+      "relations": [
+        { "to": "k41", "type": "influences" },
+        { "to": "k09", "type": "influences" },
+        { "to": "k11", "type": "influences" },
+        { "to": "k06", "type": "influences" },
+        { "to": "k07", "type": "influences" },
+        { "to": "k14", "type": "influences" }
+      ]
+    },
+    {
+      "id": "k41",
+      "name": "转换生成语法",
+      "chapter": "c12",
+      "definition": "由乔姆斯基创立、以生成所有合乎语法的句子并解释人的语言能力为目标的语法理论，强调语法的生成性和普遍语法。",
+      "school": "生成语法",
+      "era": "1957",
+      "aliases": ["生成语法"],
+      "relations": [
+        { "to": "k42", "type": "contains" }
+      ]
+    },
+    {
+      "id": "k42",
+      "name": "语言普遍性",
+      "chapter": "c12",
+      "definition": "各种语言共有的特征或规律，包括一切语言都具有的普遍现象和限制语言可能形式的普遍原则，是语言类型学与普遍语法研究的重要内容。",
+      "school": "生成语法",
+      "era": "20世纪",
+      "aliases": ["普遍性"],
+      "relations": []
+    }
+  ]
+}

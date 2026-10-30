@@ -1,0 +1,16 @@
+services:
+  lingua:
+    build: .
+    container_name: lingua-lab
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8787
+      # 可选：把 AI 配置直接写进环境，首次启动即生效
+      # - AI_BASE_URL=https://api.deepseek.com
+      # - AI_MODEL=deepseek-chat
+      # - AI_KEY=sk-xxx
+    restart: unless-stopped
